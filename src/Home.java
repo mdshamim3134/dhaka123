@@ -12,7 +12,6 @@ public class Home {
 		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("12345");
 		Thread.sleep(5000);
 		driver.quit();
-		System.out.println(123);
 		
 
 	}
